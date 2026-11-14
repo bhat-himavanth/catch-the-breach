@@ -1,0 +1,17 @@
+# Attack logs: large, and they trip antivirus on other machines
+datasets/
+# Secrets and local settings
+.env
+# Downloaded installers and add-ons
+splunk-apps/
+tools/
+# Python
+__pycache__/
+.venv/
+
+# Installers and archives
+*.msi
+*.exe
+*.zip
+*.tgz
+*.spl
